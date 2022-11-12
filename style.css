@@ -26,7 +26,7 @@ main{
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./imgs/afternoon.jpeg');
+  background-image: url('./imgs/afternoon.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +42,7 @@ main{
 }
 .phrase-section img{
   width: 20px;
-  color: white;
+  cursor: pointer;
 }
 
 .clock-section .clock-header{
@@ -51,8 +51,7 @@ main{
 }
 .clock-section .clock-header img{
   width: 20px;
-  fill: white;
-  margin-inline-end: 5px;
+  margin-inline-end: 10px;
 }
 .clock-section .clock-header span{
   font-weight: lighter;
