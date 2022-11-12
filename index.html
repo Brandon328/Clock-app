@@ -10,30 +10,29 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;400;700&display=swap" rel="stylesheet">
 
-  <link rel="shortcut icon" href="imgs/sun.svg" type="image/x-icon">
+  <link rel="shortcut icon" type="image/x-icon" id="favicon">
   <link rel="stylesheet" href="style.css">
 
-
-  <title>Good morning</title>
+  <title id="web-title"></title>
 </head>
 
 <body>
   <main>
     <section class="phrase-section">
       <div class="phrase">
-        <p>"Be water, my friend"</p>
-        <h4>Bruce Lee</h4>
+        <p id="txtphrase"></p>
+        <h4 id="author"></h4>
       </div>
-      <img class="btn-refresh-phrase" src="./imgs/refresh.svg" alt="Refresh button">
+      <img class="btn-refresh-phrase" src="./imgs/refresh.svg" alt="Refresh button" id="refresh-phrase-button">
     </section>
     <section class="clock-section">
       <div class="clock-header">
         <img src="/imgs/sun.svg" alt="sun" id="day-icon">
-        <span id="day-time">GOOD MORNING, IT'S CURRENTLY</span>
+        <span id="day-time"></span>
       </div>
       <div class="clock">
-        <span id="hours-minutes">11:37</span>
-        <span id="seconds">:06</span>
+        <span id="hours-minutes"></span>
+        <span id="seconds"></span>
       </div>
       <p class="footer">IN HUANCAYO, PERÚ</p>
     </section>
